@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "claude3-demo"
+version = "0.1.0"
+description = ""
+authors = ["Kazuya Iriguchi <kazuya.iriguchi.j6k@jp.denso.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+anthropic = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
